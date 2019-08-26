@@ -8,17 +8,12 @@ namespace WebApplication3.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public string Index()
         {
-            return View();
+            return "Hello";
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
+       
 
         public ActionResult Contact()
         {
